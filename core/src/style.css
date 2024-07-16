@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* =========== common classes ============ */
+
+/* testimonials */
+.my-slides{
+    display: none;
+}
+/* images testimonials */
+.testo-img{
+    animation: pulse infinite 2s;
+}
+
+/* technology */
+.tabcontent{
+    display: none;
+}
+@keyframes pulse{
+    0%{transform: scale(1.1);}
+    50%{transform: scale(1);}
+    100%{transform: scale(1.1);}
+}
+
+input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
